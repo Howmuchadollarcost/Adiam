@@ -1,8 +1,8 @@
 class Person{
     private final String name;
-    private final int age;
+    private final String age;
 
-    Person(String name, int age){
+    Person(String name, String age){
         this.name = name;
         this.age = age;
     }
@@ -11,11 +11,11 @@ class Person{
         return name;
     }
 
-    public int hentAlder(){
+    public String hentAlder(){
         return age;
     }
 
-
+    @Override
     public String toString(){
         return "Navn: " + name + "\nAlder: " + age;
     }

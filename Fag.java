@@ -9,6 +9,7 @@ class Fag{
         return fagNavn;
     }
 
+    @Override
     public String toString(){
         return "Fag: " + fagNavn;
     }
