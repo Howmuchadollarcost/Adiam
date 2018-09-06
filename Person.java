@@ -8,7 +8,8 @@ class Person{
     }
 
     public String hentNavn(){
-        return name;
+        String navn =  name.replaceAll("\\s","");
+        return navn;
     }
 
     public String hentAlder(){
